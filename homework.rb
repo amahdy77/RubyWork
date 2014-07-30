@@ -1,11 +1,11 @@
 #1a
-# def string_concat()
-# 	puts "What user phrase you want to add "
-# 	userphrase = gets.chomp
-# 	puts "#{userphrase.upcase} Only in America!"
-# end
+def string_concat()
+	puts "What user phrase you want to add "
+	userphrase = gets.chomp
+	puts "#{userphrase.upcase} Only in America!"
+end
 
-# string_concat()
+string_concat()
 
 #1b
 def max_num()
