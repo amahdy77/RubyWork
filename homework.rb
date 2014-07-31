@@ -1,4 +1,4 @@
-# #1a
+#1a
 def string_concat()
 	puts "What user phrase you want to add "
 	userphrase = gets.chomp
@@ -7,7 +7,7 @@ end
 
 string_concat()
 
-# #1b
+#1b
 def max_num()
 	puts "Please write the set of numbers with COMMA to find the maximum value "
 	num = gets
@@ -17,6 +17,14 @@ def max_num()
 end
 
 max_num()
+
+#1c
+def two_args(array1, array2)
+	voila = Hash[array1.zip array2]
+	puts voila
+end
+
+two_args(["Name", "State"], ["Ash", "NY"])
 
 #2
 def FizzBuzz()
