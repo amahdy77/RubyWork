@@ -9,10 +9,11 @@ string_concat()
 
 #1b
 def max_num()
-	puts "Please write the set of numbers with comma to find the maximum value "
-	number = gets.chomp
-	my_list = number.split.maximum
-	puts my_list
+	puts "Please write the set of numbers with COMMA to find the maximum value "
+	num = gets
+	num_array = num.split(",") 
+	max = num_array.sort.reverse
+	puts "the max number is #{max[0]}"
 end
 
 max_num()
