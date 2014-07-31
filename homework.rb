@@ -1,4 +1,4 @@
-#1a
+# #1a
 def string_concat()
 	puts "What user phrase you want to add "
 	userphrase = gets.chomp
@@ -7,7 +7,7 @@ end
 
 string_concat()
 
-#1b
+# #1b
 def max_num()
 	puts "Please write the set of numbers with COMMA to find the maximum value "
 	num = gets
@@ -17,3 +17,18 @@ def max_num()
 end
 
 max_num()
+
+#2
+def FizzBuzz()
+	for i in 1..100
+		if i%3==0 && i%5==0
+			puts "#{i} <-- FizzBuzz"
+		elsif i%3==0
+			puts "Fizz"
+		elsif i%5==0
+			puts "Buzz"
+		end
+	end
+end
+
+FizzBuzz()
