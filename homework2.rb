@@ -7,7 +7,6 @@ def theCray(text)
 	puts list
 	highest = list.values.max
 	puts "The most used word is #{list.key(highest).upcase} and it was repeated #{highest} times"
-
 	puts "Would you like to see how many times a specific word been used?"
 	input = gets.chomp.upcase
 	if input == "YES"
@@ -31,7 +30,6 @@ def choice
 		puts "Try again..you did something horrendously wrong :O"
 	end	
 end
-
 
 puts"This app allows you to count words in text. You can i.e. type (imagine) to see the word count of Imagine By Lennon or simply type (other) and then add your desired text"
 puts choice
