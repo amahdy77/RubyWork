@@ -7,7 +7,7 @@ def theCray(text)
 	puts list
 	highest = list.values.max
 	puts "The most used word is #{list.key(highest).upcase} and it was repeated #{highest} times"
-	puts "Would you like to see how many times a specific word been used?"
+	puts "Would you like to see how many times a specific word been used? Write Yes or No and then press Enter."
 	input = gets.chomp.upcase
 	if input == "YES"
 		puts "type the specific key *CASE SENSITIVE*"
